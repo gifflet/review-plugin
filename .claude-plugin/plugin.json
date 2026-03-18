@@ -1,0 +1,10 @@
+{
+  "name": "review-plugin",
+  "version": "1.0.0",
+  "description": "Interactive PR code reviewer for Claude Code",
+  "author": {
+    "name": "gifflet"
+  },
+  "repository": "https://github.com/gifflet/review-plugin",
+  "license": "MIT"
+}

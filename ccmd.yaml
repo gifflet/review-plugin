@@ -1,0 +1,11 @@
+name: review-plugin
+type: plugin
+version: 1.0.0
+description: "Interactive PR code reviewer for Claude Code"
+author: gifflet
+repository: https://github.com/gifflet/review-plugin
+tags:
+    - claude-code
+    - review
+    - github
+    - pr
