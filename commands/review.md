@@ -380,7 +380,7 @@ ARGUMENTS: $ARGUMENTS
    - Parameters:
      ```json
      {
-       "subagent_type": "code-reviewer",
+       "subagent_type": "review-plugin:code-reviewer",
        "description": "Review GitHub PR #{pull_number}",
        "prompt": "{contexto_preparado_acima}"
      }

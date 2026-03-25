@@ -8,7 +8,7 @@ When executed via `/review` in Claude Code, this command performs an interactive
 
 1. Fetches PR details, diff, and modified files from GitHub
 2. Detects cross-project dependencies (e.g., hub ↔ hub-ui API changes)
-3. Invokes the code-reviewer agent to analyze the changes
+3. Invokes the `review-plugin:code-reviewer` agent to analyze the changes
 4. Presents each suggestion interactively — approve, edit, or skip
 5. Submits the final review to GitHub only after your explicit confirmation
 
@@ -50,7 +50,7 @@ After installation, use in Claude Code:
    - **Phase 1**: Parse and validate input (PR identifier + language)
    - **Phase 2**: Fetch PR details via GitHub MCP
    - **Phase 3**: Analyze cross-project dependencies
-   - **Phase 4**: Invoke the code-reviewer agent (`agents/code-reviewer.md`)
+   - **Phase 4**: Invoke the `review-plugin:code-reviewer` agent (`agents/code-reviewer.md`)
    - **Phase 5**: Interactive approval of each suggestion
    - **Phase 6**: Submit review with explicit user confirmation
 
